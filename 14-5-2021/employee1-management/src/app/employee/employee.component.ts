@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EMPLOYEES } from '../employee.mock';
 
 @Component({
   selector: 'app-employee',
@@ -6,7 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent  {
-
-  emp={name:"Aravind", company:"cts", address:"Anantapur"}
+  employees=EMPLOYEES;
 
 }
