@@ -1,0 +1,44 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "password": "password",
+      "name": "aravind",
+      "address": "Anantapur",
+      "age": 21,
+      "company": "cts"
+    },
+    {
+      "id": "102",
+      "password": "harsha123@",
+      "name": "harsha",
+      "address": "hyderabad",
+      "age": 23,
+      "company": "amazon"
+    },
+    {
+      "id": "103",
+      "password": "Pavan@123",
+      "name": "Pavan",
+      "address": "Banglore",
+      "age": 23,
+      "company": "Google"
+    },
+    {
+      "id": "104",
+      "password": "Vasu123@",
+      "name": "Vasu",
+      "address": "Chennai",
+      "age": 22,
+      "company": "Amazon"
+    },
+    {
+      "id": "105",
+      "password": "Naveen123@",
+      "name": "Naveen",
+      "address": "Hyderabad",
+      "age": 21,
+      "company": "Mphasis"
+    }
+  ]
+}
