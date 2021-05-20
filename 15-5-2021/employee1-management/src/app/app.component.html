@@ -1,8 +1,17 @@
-<h2>This is Angular File</h2>
+<div class="navbar navbar-extend-md fixed-top fixed-header">
+    <div class="container">
+        <nav>
+            <a [routerLink]="'/'" class="btn btn-success">Home</a> 
+            <a [routerLink]="'add-employee'" class="btn btn-primary">Add-Employee</a>
+        </nav>
+    </div>
+</div>
+
+<br>
+<br>
+<div class="container">
 <h1>{{title}}</h1>
-<h2>{{name}}</h2>
-<app-employee></app-employee>
-<app-interpolation></app-interpolation>
-<app-property-binding></app-property-binding>
-<app-event-binding></app-event-binding>
-<app-two-way-binding></app-two-way-binding>
+<hr />
+<router-outlet></router-outlet>
+</div>
+
