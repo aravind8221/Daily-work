@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "password": "password",
+      "name": "aravind",
+      "address": "Anantapur",
+      "age": 21,
+      "company": "cts"
+    },
+    {
+      "id": "102",
+      "password": "Aravind123@",
+      "name": "ARAVIND",
+      "address": "SREENAGAR COLONY,KIRIKERA,HINDUPUR(T)",
+      "age": 22,
+      "company": "CTS"
+    },
+    {
+      "id": "103",
+      "password": "Pavan@123",
+      "name": "Pavan",
+      "address": "Banglore",
+      "age": 23,
+      "company": "Google"
+    }
+  ]
+}
