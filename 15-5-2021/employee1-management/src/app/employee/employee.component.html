@@ -1,12 +1,14 @@
 <p>employees</p>
 <hr>
 <table class="table">
+    
     <tr>
         <td>Id</td>
         <td>Name</td>
         <td>Age</td>
         <td>Address</td>
         <td>Company</td>
+        <td>Actions</td>
     </tr>
     <tr *ngFor="let employee of employees">
         <td>{{employee.id}}</td>
@@ -14,6 +16,10 @@
         <td>{{employee.age}}</td>
         <td>{{employee.address}}</td>
         <td>{{employee.company}}</td>
+        <td>
+            <button class="btn" (click)=updateEmployee(employee)>Update</button>
+            <button class="btn" (click)=deleteEmployee(employee)>Delete</button>
+        </td>
     </tr>
 </table>
 <button class="btn btn-success">Button</button>
