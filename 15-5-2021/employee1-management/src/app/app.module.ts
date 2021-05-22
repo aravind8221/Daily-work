@@ -12,6 +12,9 @@ import { HttpClientModule } from '@angular/common/http'
 import { AddEmployeeComponent } from './employee/add-employee/add-employee.component';
 import { AppRoutingModule } from './app-routing.module';
 import { UpdateEmployeeComponent } from './employee/update-employee/update-employee.component';
+import { GameComponent } from './game/game.component';
+import { OddNumberComponent } from './odd-number/odd-number.component';
+import { EvenNumberComponent } from './even-number/even-number.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { UpdateEmployeeComponent } from './employee/update-employee/update-emplo
     UserFormComponent,
     AddEmployeeComponent,
     UpdateEmployeeComponent,
+    GameComponent,
+    OddNumberComponent,
+    EvenNumberComponent,
   ],
   imports: [
     BrowserModule,
